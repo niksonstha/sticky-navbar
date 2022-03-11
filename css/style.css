@@ -1,0 +1,94 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@100;400&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+}
+
+body {
+  height: 200vh;
+  background-color: #f3e7e7;
+}
+
+body .sticky {
+  background-color: black;
+  -webkit-box-shadow: 0 0 50px rgba(160, 29, 29, 0.4);
+          box-shadow: 0 0 50px rgba(160, 29, 29, 0.4);
+}
+
+body .sticky a {
+  color: white;
+}
+
+body .sticky ul li a {
+  color: white;
+}
+
+body .sticky button {
+  color: white;
+  border: 1px solid white;
+}
+
+body header {
+  height: 10vh;
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  position: fixed;
+  top: 0;
+  left: 0;
+  -webkit-transition: .5s ease-in-out;
+  transition: .5s ease-in-out;
+}
+
+body header a {
+  color: white;
+  text-decoration: none;
+  font-size: 1.4rem;
+  margin-left: 20px;
+  color: black;
+}
+
+body header ul {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  gap: 20px;
+  list-style: none;
+}
+
+body header ul a {
+  color: black;
+}
+
+body header button {
+  background: transparent;
+  color: black;
+  font-family: "Poppins", sans-serif;
+  padding: 8px;
+  margin-right: 20px;
+  outline: none;
+  border: 1px solid black;
+}
+
+.hero {
+  height: 50vh;
+  background-color: #e0cbce;
+  margin-top: 10vh;
+}
+/*# sourceMappingURL=style.css.map */

@@ -1,0 +1,75 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@100;400&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+}
+body {
+  height: 200vh;
+  background-color: #f3e7e7;
+
+  .sticky {
+    // background-color: black;
+    // color: white;
+    background-color: black;
+    box-shadow: 0 0 50px rgba($color: #a01d1d, $alpha: 0.4);
+    a{
+        color: white;
+    }
+    ul li a{
+        
+        color: white;
+    }
+    button{
+        color: white;
+        border: 1px solid rgb(255, 255, 255);
+    }
+  }
+  header {
+    height: 10vh;
+    width: 100%;
+    // background-color: black;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    position: fixed;
+    top: 0;
+    left: 0;
+    transition: .5s ease-in-out;
+    // background-color: black;
+
+    a {
+      color: white;
+      text-decoration: none;
+      font-size: 1.4rem;
+      margin-left: 20px;
+      color: black;
+    }
+    ul {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      gap: 20px;
+      list-style: none;
+      a {
+        color: black;
+      }
+    }
+    button {
+      background: transparent;
+      color: black;
+      font-family: "Poppins", sans-serif;
+      padding: 8px;
+      margin-right: 20px;
+      outline: none;
+      border: 1px solid black;
+    }
+  }
+}
+
+.hero{
+  height: 50vh;
+  background-color: rgb(224, 203, 206);
+  margin-top: 10vh;
+}
